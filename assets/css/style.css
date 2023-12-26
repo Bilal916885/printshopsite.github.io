@@ -1,0 +1,1010 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+body h4{
+    font-weight: 600;
+}
+
+ body a{
+    text-decoration: none;
+}
+/* ---------------------------- */
+.home  span{
+    font-size:.9vw;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.home  span a{
+    text-decoration: none;
+    color: #000;
+    word-spacing: 2px;
+}
+.home h6 {
+    font-size:1.1vw;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-weight: 500;
+
+}
+/* -----------------navbar-sec----------------------- */
+.navbar-sec .logo-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+.navbar-sec .logo-sec .logo img{
+    width: 13vw;
+    cursor: pointer;
+}
+
+.navbar-sec .logo-sec .text  a { 
+    font-size: 2.8vw;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gray;
+    transition: all .1s;
+    margin-top: 5rem;
+    
+
+}
+
+.navbar-sec .logo-sec .text  a:hover{
+    color: red;
+}
+.navbar-sec .logo-sec .text span { 
+    font-size: 1vw;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+
+}
+.navbar-sec .logo-sec .text span:hover{
+    text-decoration: underline;
+}
+/* ----------------------------------dropdown-sec------------------------------------ */
+.dropdown-sec .navbar-nav{
+    padding-left: rem;
+}
+.dropdown-sec .navbar-nav .nav-item{
+    padding-left: 1.8rem;
+    font-size: 1rem;
+
+
+}
+.dropdown-sec .navbar-nav .nav-item .nav-link{
+    color: #000;
+    font-weight: 300;
+    
+}
+
+.dropdown-sec .navbar-nav .nav-item .nav-link:hover{
+    color: red;
+}
+.dropdown-menu{
+    width: 15vw;
+    font-size: 1rem;
+    
+}
+.dropdown-menu .dropdown-item:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* ------------------------------------bnr-sec------------------------------------------- */
+.bnr-sec .bnr-img{
+    background-image: url(../images/bnr.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 35vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.bnr-sec .bnr-img .contnt h4{
+    font-size: 3.2vw;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    padding-top: 5rem;
+    font-weight: bold;
+}
+
+.bnr-sec .bnr-img .contnt h6{
+    font-size: 2vw;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    padding-top: .9rem;
+    
+}
+.bnr-sec .bnr-img .contnt .cntr{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.bnr-sec .bnr-img .contnt .cntr{
+    padding-top: 1.3rem;
+}
+.bnr-sec .bnr-img .contnt .cntr i{
+    color: green;
+}
+.bnr-sec .bnr-img .contnt .prg{
+    color: #fff;
+    font-size: 1rem;
+}
+.bnr-sec .bnr-img .contnt .prg i{
+    color: green;
+}
+.bnr-sec .bnr-img .contnt button{
+    border: none;
+    outline: none;
+    width: 13vw;
+    height: 4.1vw;
+    color: red;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    font-weight: 500;
+}
+/* --------------------------------------------------cards sec---------------------------------------- */
+.cards-sec{
+    /* margin-top: 6rem; */
+    /* background-color: #E3F4F4; */
+    background-color: #F2F2F2;
+    padding: 20px;
+    
+}
+.cards-sec .txt{
+    text-align: center;
+
+
+}
+.cards-sec .txt h4{
+    color: #000;
+    font-size: 2.4vw;
+    margin-top: 4rem;
+    padding-top: 1rem;
+
+}
+.cards-sec .txt h6{
+    color: gray;
+    font-size: 1.8vw;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.cards-sec .cards-row1{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards-sec .cards-row1 .row1{
+    width: 25%;
+    text-align: center;
+}
+
+.cards-sec .cards-row1 .row1 img{
+    width: 23vw;
+   border-radius: 10px;
+    
+}
+.cards-sec .cards-row1 .row1 button{
+    border: none;
+    outline: none;
+    width: 14vw;
+    height: 4vw;
+    color:#000;
+    border-radius: 40px;
+    font-size: 1rem;
+    transform: translateY(-6rem);
+    font-weight: 500;
+}
+.cards-sec .cards-row1 .row1 button:hover{
+    color:gray;
+}
+/* -------------------row20-------------------- */
+.cards-sec .cards-row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards-sec .cards-row2 .row1{
+    width: 25%;
+    text-align: center;
+}
+
+.cards-sec .cards-row2 .row1 img{
+    width: 23vw;
+   border-radius: 10px;
+    
+}
+.cards-sec .cards-row2 .row1 button{
+    border: none;
+    outline: none;
+    width: 14vw;
+    height: 4vw;
+    color:#000;
+    border-radius: 40px;
+    font-size: 1rem;
+    transform: translateY(-6rem);
+    font-weight: 500;
+}
+.cards-sec .cards-row2 .row1 button:hover{
+    color: gray;
+}
+
+/* -----------------------------------logo-sec----------------------------------- */
+.logoo-sec{
+    background-color: #ffe;
+    width: 100%;
+    height: 18.5vw;
+}
+.logoo-sec h4{
+    font-size: 2.6vw;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3.6rem;
+
+}
+.logoo-sec .roow{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.logoo-sec .roow .clm1{
+    margin-top: 2.6rem;
+    
+}
+/* ------------------------------------brand-sec------------------------------ */
+.brand-sec{
+    margin-top: 5rem;
+}
+
+.brand-sec .container .brnds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 3.5rem;
+}
+.brand-sec .container .brnds .brnd-left{
+    width: 50%;
+}
+.brand-sec .container .brnds .brnd-left h4{
+    font-size: 2vw;
+    color: #000;
+    font-weight: 500;
+}
+.brand-sec .container .brnds .brnd-left p{
+    color: #000;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.brand-sec .container .brnds .brnd-left button{
+    border: none;
+    outline: none;
+    width: 14vw;
+    height: 4vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: red;
+}
+.brand-sec .container .brnds .brnd-left button:hover{
+    color: #000;
+}
+
+
+
+
+.brand-sec .container .brnds .brnd-right{
+    width: 50%;
+    
+}
+.brand-sec .container .brnds .brnd-right img{
+    width: 38vw;
+}
+
+
+.brand-sec .container .text{
+    text-align: center;
+}
+.brand-sec .container .text h4{
+    font-size: 2.4vw;
+    color: #000;
+    font-weight: 600;
+}
+.brand-sec .container .text p{
+    font-size: 2vw;
+    color: gray;
+    margin-top: 1rem;
+    
+}
+/* --------------------------------brand-2-sec------------------------------ */
+.brand-2-sec .container .brnds-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.brand-2-sec{
+    margin-top: 3rem;
+}
+.brand-2-sec .container .brnds-2 .brnd-lft{
+    width: 50%;
+}
+.brand-2-sec .container .brnds-2 .brnd-lft img{
+    width: 38vw;
+}
+.brand-2-sec .container .brnds-2 .brnd-rght{
+    width: 50%;
+}
+
+.brand-2-sec .container .brnds-2 .brnd-rght h4{
+    font-size: 2vw;
+    color: #000;
+    font-weight: 400;
+}
+.brand-2-sec .container .brnds-2 .brnd-rght p{
+    color: #000;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.brand-2-sec .container .brnds-2 .brnd-rght button{
+    border: none;
+    outline: none;
+    width: 14vw;
+    height: 4vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: red;
+}
+.brand-2-sec .container .brnds-2 .brnd-rght button:hover{
+    color: #000;
+}
+/* ---------------------------------need-sec---------------------------------------- */
+.need-sec {
+    width: 100%;
+    height: 24vw;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-top: 5rem;
+}
+.need-sec .cntnt h4{
+    font-size: 2.4vw;
+    color: #000;
+    font-weight: 600;
+    padding-top: 4.5rem;
+}
+.need-sec .cntnt p{
+    font-size: 1.4vw;
+    color: #000;
+    font-weight: 590;
+    color: gray;
+    margin-top: 1.5rem;
+}
+.need-sec .cntnt button{
+    border: none;
+    outline: none;
+    width: 15vw;
+    height: 4vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: red;
+    margin-top: 1rem;
+
+}
+/* ----------------------------shping-sec---------------------------- */
+
+.shping-sec .cntnt {
+    text-align: center;
+}
+
+.shping-sec .cntnt h4{
+    font-size: 2.4vw;
+    color: #000;
+    font-weight: 600;
+    padding-top: 4.5rem;
+}
+.shping-sec .container   .cntnt p{
+    font-size: 1.4vw;
+    color: #000;
+    font-weight: 590;
+    color: gray;
+    margin-top: 1.9rem;
+}
+.shping-sec .container  .shiping-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.shping-sec .container  .shiping-row .shpinhg-inrr h4{
+    font-size: 1.6vw;
+    color: #000;
+    font-weight: 500;
+    margin-top: 1.5rem;
+
+
+}
+.shping-sec .container  .shiping-row .shpinhg-inrr img{
+    width: 15vw;
+}
+/* -----------------------------------------red-line-sec---------------------------------------------- */
+.red-line-sec{
+    margin-top: 8rem;
+}
+.red-line-sec .red-line{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.red-line-sec .red-line .rows{
+    width: 15%;
+
+    
+}
+.red-line-sec .red-line .rows h4{
+    font-size: 2.1vw;
+    font-weight: 600;
+}
+.red-line-sec  .red-line  .rows-line{
+    width: 20%;
+    border-left: 2px solid red;
+    border-radius: 2px solid red;
+    height: 20vw;
+    text-align: center;
+}
+.red-line-sec  .red-line  .rows-line h4{
+    margin-top: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 1.5vw;
+}
+.red-line-sec  .red-line  .rows-line p{
+    margin-top: 2rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+/* ----------------------------------------------acoordition sec----------------------------- */
+.acrdtn-sec{
+    margin-top: 5rem;
+    /* overflow-x: hidden; */
+    width: 100%;
+    background-color:#F2F2F2;
+    padding: 20px;
+}
+.acrdtn-sec h4{
+    font-size: 2.4vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+.acrdtn-sec #row{
+    margin-top: 4rem;
+}
+.acrdtn-sec .accordion-item button{
+    font-size: 1.1rem;
+    border-radius: 40px;
+    /* box-shadow: 1px 1px 5px gray; */
+     box-shadow: none;
+    background-color: none; 
+
+    
+}
+.acrdtn-sec .chck {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.acrdtn-sec .chck  a{
+    font-size: 1.1rem;
+    color: red;
+    font-weight: 500;
+    
+}
+.acrdtn-sec .chck  a:hover{
+    text-decoration: underline;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    
+}
+.accordion-button{
+    border-radius: 10px;
+    height: 55px;
+}
+.accordion-button:not(.collapsed){
+    background-color:#fff;
+    color: #000;
+
+}
+.accordion-button::after{
+    color: #000;
+    font-size: 2rem;
+    
+}
+
+
+
+/* --------------------------------box-sec---------------------------------- */
+.box-sec{
+    margin-top: 5rem;
+}
+.box-sec .txt h4{
+    color: #000;
+    font-size: 2.4vw;
+    text-align: center;
+    font-weight: 600;
+}
+.box-sec .txt p{
+    color: gray;
+    font-size: 1.8vw;
+    text-align: center;
+}
+.box-sec .box-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    
+}
+.box-sec .box-row .boxs{
+    width: 31.5%;
+    background-color: #F2F2F2;
+    min-height: 26vw;
+    margin-top: 7rem;
+    box-shadow: 1px 1px 7px  gray;
+}
+
+.box-sec .box-row .boxs img{
+    border: 3px solid blue;
+    border-radius: 50%;
+    padding: .6rem;
+    transform: translateY(-40PX);
+    
+}
+.box-sec .box-row .boxs h4{
+    font-size: 2.2vw;
+    color: #000;
+}
+.box-sec .box-row .boxs p{
+    font-size: 1.2vw;
+    padding: 1.4rem;
+}
+
+.box-sec .box-row .boxs button{
+    border: none;
+    outline: none;
+    width: 13vw;
+    height: 3.8vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: red;
+    
+
+}
+.box-sec .box-row  #shop button{
+    border: none;
+    outline: none;
+    width: 10vw;
+    height: 3.8vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: red;
+    
+
+}
+/* -------------------------------clth-dsgn--------------------------------- */
+.clth-dsgn {
+    margin-top: 6rem;
+}
+.clth-dsgn h3{
+    color: #000;
+    font-size: 2.4vw;
+    text-align: center;
+    font-weight: 600;
+}
+.clth-dsgn .dsgn-row{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.clth-dsgn .dsgn-row .dsgn-box{
+    width: 25%;
+    background-color: #F2F2F2;
+    min-height: 30vw;
+    margin-top: 2rem;
+    
+}
+.clth-dsgn .dsgn-row .dsgn-box img{
+    width: 20vw;
+}
+.clth-dsgn .dsgn-row .dsgn-box .txxt h4{
+    color: #000;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+.clth-dsgn .dsgn-row .dsgn-box .txxt p {
+    padding: 1rem;
+    font-size: 1rem;
+    transform: translateY(-20px);
+    line-height: 1.4rem;
+    
+}
+.clth-dsgn .dsgn-row .end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    transform: translateY(-45px);
+}
+.clth-dsgn .dsgn-row .end h6{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.clth-dsgn .container button{
+    border: none;
+    outline: none;
+    width: 14vw;
+    height: 3.8vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+
+}
+/* ---------------------------------fvrt-sec----------------------------- */
+.fvrt-sec{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fvrt-sec .fvrt{
+    /* clip-path: polygon(9% 0, 100% 0%, 63% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 100% 0, 76% 100%, 0 100%);
+    background-color:#D0A2F7;
+    /* D0A2F7 */
+    width: 30%;
+    height: 29vw;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.fvrt-sec .fvrt h4{
+    transform: translateX(40px);
+    font-size: 2.9vw;
+    color: #fff;
+    text-align: center;
+    line-height: 3.5rem;
+    font-weight: 600;
+}
+.fvrt-sec .fvrts{
+    width: 20%;
+}
+.fvrt-sec .fvrts h4{
+    font-size: 1.5vw;
+    color: #000;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.fvrt-sec .fvrts ul li{
+    list-style: none;
+    font-size: 1rem;
+    padding-top: .8rem;
+}
+.fvrt-sec .fvrts ul li a{
+    color: #000;
+}
+.fvrt-sec .fvrts ul li a:hover{
+    color: red;
+    text-underline-offset: left;
+    cursor: pointer;
+}
+/* ------------------------------srch-bar------------------------------- */
+.srch-bar{
+    margin-top: 5REM;
+    background-color: #ffe;
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.srch-bar .srch h4{
+    font-size: 1.6vw;
+    color: #000;
+    font-weight: 500;
+}
+.srch-bar .bar input{
+    border: none;
+    outline: none;
+    width: 33vw;
+    height: 3.8vw;
+    /* border: 1px solid; */
+    border-radius: 27px;
+    font-size: 1.1rem;
+ box-shadow: 1px 1px 10px gray; 
+}
+.srch-bar .bar input:hover{
+    box-shadow: 1px 1px 10px gray;
+
+}
+.srch-bar .bar input::placeholder{
+    padding-left: 2rem;
+}
+.srch-bar .bar button{
+    border: none;
+    outline: none;
+    width: 12vw;
+    height: 3.2vw;
+    color:#fff;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: red;
+    transform: translateX(-170px);
+
+
+    
+
+}
+/* --------------------------------------------------------fotr-sec--------------------------------- */
+.fotr-sec{
+    margin-top: 5rem;
+}
+.fotr-sec .ftr-row{
+    display: flex;
+    justify-content: space-between;
+    
+    
+} 
+.fotr-sec .ftr-row .ftr-clm{
+    width: 19%;
+    padding: 28px;
+}
+.fotr-sec .ftr-row .ftr-clm h4{
+    font-size: 1.7vw;
+    font-weight: 500;
+
+}
+.fotr-sec .ftr-row .ftr-clm ul{
+    margin-top: 1.4rem;
+}
+.fotr-sec .ftr-row .ftr-clm ul li {
+    list-style: none;
+    padding-top: .8rem;
+    transform: translateX(-25px);
+}
+.fotr-sec .ftr-row .ftr-clm ul li a{
+    color: #000;
+
+}
+.fotr-sec .ftr-row .ftr-clm ul li a:hover{
+    text-decoration: underline;
+
+}
+.fotr-sec .ftr-row .ftr-clm p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.7rem;
+}
+
+/* -----ftr-pictr---- */
+.ftr-pictr{
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+.ftr-pictr .img1 img{
+    width: 5vw;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.fotr-sec .line{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 2rem;
+}
+
+.fotr-sec .end-icn{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+.fotr-sec .end-icn .left .txtt{ 
+    display: flex;
+    gap: 2rem;
+    color: #000;
+    
+}
+.fotr-sec .end-icn .left .txtt a{
+    color: #000;
+}
+.fotr-sec .end-icn .left .txtt a:hover{
+    text-decoration: underline;
+}
+.fotr-sec .end-icn .right{ 
+    display: flex;
+    gap: 1.3rem;
+    color: #000;
+    cursor: pointer;
+    
+}
+.fotr-sec .end-icn .right i{
+    font-size: 1.2rem;
+}
+.fotr-sec .end-icn .right i:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* -------------------------1st-acord------------------- */
+.fst-acord{
+    display: none;
+}
+
+/* ----2ND---- */
+.ftr-acrd{
+    display: none;
+
+}
+/* ---------------------------clth-card----------------------------- */
+.clth-card{
+    margin-top: 7rem;
+}
+.clth-card h3{
+    font-size: 2.6vw;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.clth-card .card .card-body h4{
+    font-size: 1.3vw;
+    
+    
+}
+.clth-card .card {
+    margin-top: 2rem;
+    height:27rem;
+}
+.clth-card .card .card-body p{
+    font-size: .9rem;
+    margin-top: .8rem;
+    
+}
+.clth-card .card .card-body .ending{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1.3rem; */
+    /* align-items: center; */
+}
+.clth-card .card .card-body .ending a{
+    font-size: .9rem;
+    color: #000;
+}
+.clth-card .card  .card-body .ending span{
+    font-size: .9rem;
+    color: #000;
+}
+
+/* -----------------------------------------SLIDER NMBR 1----------------------------------- */
+.cards-wrapper{
+    display: flex;
+}
+
+.slider-sec .card{
+    margin: 0 1em;
+    width: calc(100%/3);
+}
+.image-wrapper{
+    height: 30vw;
+    margin: 0 auto;
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.slider-sec .card p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+    background-color:#F2F2F2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+.slider-sec{
+    margin-top: 3rem;
+}
+.slider-sec .ttxt  h4{
+    font-size: 2.2vw;
+    text-align: center;
+}
+.carousel-inner{
+    margin-top: 3rem;
+}
+
+
+/* .carousel-control-prev{
+    background-color:yellow;
+    transform: translateX(-86px);
+    width: 200px;
+}
+.carousel-control-next
+{
+    transform: translateX(86px);
+} */
+.slider-sec .carousel-control-prev {
+    background-color: gray;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.slider-sec .carousel-control-next {
+    background-color: gray;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.logoo-sec{
+    margin-top: 4rem;
+}
